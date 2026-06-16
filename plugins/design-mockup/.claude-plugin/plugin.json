@@ -1,0 +1,17 @@
+{
+  "name": "design-mockup",
+  "description": "Extracts design tokens (colors, typography, spacing, radius, shadows) from an HTML file, image, or page URL and generates a single self-contained mockup HTML (token legend + fixed sample screen set: dashboard, table, form, modal, buttons) to preview how a UI built with that design would look. Portable, no project-specific values.",
+  "version": "0.1.0",
+  "author": {
+    "name": "김경봉",
+    "email": "rudqhd524@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "design-tokens",
+    "mockup",
+    "preview",
+    "css",
+    "frontend"
+  ]
+}
