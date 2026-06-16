@@ -15,7 +15,7 @@
 ## 설치 (팀원용)
 
 ```
-/plugin marketplace add <이 repo의 GitHub URL>
+/plugin marketplace add https://github.com/bong0524-tech/bong-claude-skills.git
 /plugin install view-memory@bong-marketplace
 ```
 
