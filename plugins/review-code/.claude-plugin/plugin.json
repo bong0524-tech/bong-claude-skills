@@ -1,0 +1,18 @@
+{
+  "name": "review-code",
+  "description": "Pre-commit review of uncommitted diffs: flags naming/abbreviation/boolean/comment/file-naming convention issues, debug residue, hardcoded values & secrets, merge conflict markers, temporary/dead code, logic & edge-case risks; runs the project's compile/type-check; and checks Git hygiene (commit message, tracked files, commit size). Portable across languages and stacks.",
+  "version": "0.1.0",
+  "author": {
+    "name": "김경봉",
+    "email": "rudqhd524@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "pre-commit",
+    "conventions",
+    "git-hygiene",
+    "dead-code",
+    "quality"
+  ]
+}
