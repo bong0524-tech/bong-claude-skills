@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bong-marketplace",
+  "description": "Team-shared Claude Code skills for Nori HRM and future projects",
+  "owner": {
+    "name": "김경봉",
+    "email": "rudqhd524@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "view-memory",
+      "description": "Scans a project's existing frontend and distills design tokens, component patterns, and file conventions into project memory so new screens stay visually consistent without re-reading every stylesheet. Portable across projects and stacks.",
+      "version": "0.1.0",
+      "source": "./plugins/view-memory",
+      "author": {
+        "name": "김경봉",
+        "email": "rudqhd524@gmail.com"
+      }
+    }
+  ]
+}

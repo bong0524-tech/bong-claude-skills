@@ -1,0 +1,17 @@
+{
+  "name": "view-memory",
+  "description": "Scans a project's existing frontend and distills design tokens, component patterns, and file conventions into project memory so new screens stay visually consistent without re-reading every stylesheet. Portable across projects and stacks.",
+  "version": "0.1.0",
+  "author": {
+    "name": "김경봉",
+    "email": "rudqhd524@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "design-system",
+    "memory",
+    "consistency",
+    "tokens"
+  ]
+}
