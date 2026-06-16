@@ -1,0 +1,19 @@
+{
+  "name": "dependency-reuse-check",
+  "description": "Before adding a new dependency/library/package to a project's manifest, prove existing dependencies and the standard library can't do the job, state an explicit covered/not-covered verdict, and ask before adding. Defaults to no-add; scopes need to the actual requirement, not hypothetical edge cases. Portable across languages and stacks.",
+  "version": "0.1.0",
+  "author": {
+    "name": "김경봉",
+    "email": "rudqhd524@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dependencies",
+    "reuse",
+    "supply-chain",
+    "yagni",
+    "manifest",
+    "build.gradle",
+    "package.json"
+  ]
+}
