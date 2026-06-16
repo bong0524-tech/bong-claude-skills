@@ -12,25 +12,25 @@
 - **지문(fingerprint) 게이트**: 프론트엔드가 실제로 바뀌었을 때만 재스캔. 안 바뀌었으면 메모리 재사용 = 토큰 절감.
 - 모드: 기본(지문 자동감지) / `refresh`(강제 재스캔).
 
-## 설치 (팀원용)
+이 repo는 스킬의 **정본 보관소**다. 사용은 각 프로젝트의 `.claude/skills/`로 **복사**해서 한다 (plugin install로 꺼내 쓰지 않는다).
+
+## 사용 (프로젝트에 복사)
+
+스킬을 쓸 프로젝트의 `.claude/skills/`로 폴더를 복사한다:
+
+```
+cp -r plugins/view-memory/skills/view-memory <project>/.claude/skills/view-memory
+```
+
+복사 후 그 프로젝트에서 `/view-memory` 실행. 스킬이 업데이트되면 같은 명령으로 다시 복사해 덮어쓴다.
+
+## (선택) plugin install로 쓰는 방법
+
+복사 대신 Claude Code 플러그인으로 설치해 쓰는 것도 가능하다. 이 팀은 복사 방식을 쓰지만, 참고용으로 남긴다:
 
 ```
 /plugin marketplace add https://github.com/bong0524-tech/bong-claude-skills.git
 /plugin install view-memory@bong-marketplace
-```
-
-업데이트:
-
-```
-/plugin update view-memory@bong-marketplace
-```
-
-## 프로젝트 로컬에서 바로 쓰기 (발행 전 / 단일 프로젝트)
-
-마켓플레이스 발행 없이 한 프로젝트에서만 쓰려면 스킬 폴더를 그 프로젝트의 `.claude/skills/`로 복사한다:
-
-```
-cp -r plugins/view-memory/skills/view-memory <project>/.claude/skills/view-memory
 ```
 
 ## 구조
